@@ -116,6 +116,7 @@ nav {
   gap: 1rem;
 }
 .feature-image {
+  object-fit: cover;
   border: 1px solid rgb(102, 101, 101);
 }
 .feature-title {
@@ -165,6 +166,14 @@ footer {
   }
   .sec-nav {
     display: block;
+  }
+  .nav-items {
+    display: block;
+  }
+  .nav-items li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: 1rem;
   }
   .social-icons {
     margin-top: 1rem;
